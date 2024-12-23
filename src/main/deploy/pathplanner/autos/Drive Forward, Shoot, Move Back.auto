@@ -1,0 +1,37 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 7.822586059570317,
+      "y": 2.5
+    },
+    "rotation": -9.22247274486018e-29
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "DriveForward"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Rev Up Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Move Back"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": true
+}
